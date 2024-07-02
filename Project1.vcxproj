@@ -104,14 +104,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;C:\Users\dsteinke\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\dsteinke\Downloads\glm-1.0.1-light\;C:\Users\dsteinke\Downloads\stb-master\stb-master;C:\Users\dsteinke\Downloads\tinyobjloader-release\tinyobjloader-release</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;C:\Users\dsteinke\source\repos\Project1\Project1\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\dsteinke\source\repos\Project1\Project1\glm-1.0.1-light;C:\Users\dsteinke\source\repos\Project1\Project1\stb-master\stb-master;C:\Users\dsteinke\source\repos\Project1\Project1\tinyobjloader-release\tinyobjloader-release</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\VulkanSDK\1.3.283.0\Lib;C:\Users\dsteinke\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>C:\VulkanSDK\1.3.283.0\Lib\vulkan-1.lib;C:\Users\dsteinke\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022\glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\VulkanSDK\1.3.283.0\Lib;C:\Users\dsteinke\source\repos\Project1\Project1\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\VulkanSDK\1.3.283.0\Lib\vulkan-1.lib;C:\Users\dsteinke\source\repos\Project1\Project1\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022\glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -122,7 +122,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;C:\Users\dsteinke\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\dsteinke\Downloads\glm-1.0.1-light\;C:\Users\dsteinke\Downloads\stb-master\stb-master;C:\Users\dsteinke\Downloads\tinyobjloader-release\tinyobjloader-release</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\1.3.283.0\Include;C:\Users\dsteinke\source\repos\Project1\Project1\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\dsteinke\source\repos\Project1\Project1\glm-1.0.1-light;C:\Users\dsteinke\source\repos\Project1\Project1\stb-master\stb-master;C:\Users\dsteinke\source\repos\Project1\Project1\tinyobjloader-release\tinyobjloader-release</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -130,8 +130,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\VulkanSDK\1.3.283.0\Lib;C:\Users\dsteinke\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>C:\VulkanSDK\1.3.283.0\Lib\vulkan-1.lib;C:\Users\dsteinke\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022\glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\VulkanSDK\1.3.283.0\Lib;C:\Users\dsteinke\source\repos\Project1\Project1\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\VulkanSDK\1.3.283.0\Lib\vulkan-1.lib;C:\Users\dsteinke\source\repos\Project1\Project1\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022\glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
